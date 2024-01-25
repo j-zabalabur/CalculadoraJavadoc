@@ -1,4 +1,7 @@
 package principal;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import menu.Menu;
 import operaciones.Operaciones;
 /**
@@ -7,7 +10,10 @@ import operaciones.Operaciones;
  * Tambien llama a la clase Operaciones, donde se efectuan las operaciones matematicas.
  */
 public class Calculadora{
+	private static final Logger LOGGER = Logger.getLogger("Nombre del logger");
     public static void main(String[] args) {   
+        LOGGER.setLevel(Level.ALL);
+
         int resultado = 0;
         String operacion = "";
         int[] operandos = new int [2];
@@ -22,6 +28,7 @@ public class Calculadora{
             if (operacion.equalsIgnoreCase("+")){
                 resultado = operaciones.sumar(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
+                LOGGER.log(Level.INFO,"Se ha hecho una suma");
             } else if (operacion.equalsIgnoreCase("-")){
                 resultado = operaciones.restar(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
