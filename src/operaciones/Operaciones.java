@@ -1,9 +1,14 @@
 package operaciones;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  * En esta clase se realizan las operaciones matematicas
  */
 public class Operaciones {
+	public static final Logger LOGGER = Logger.getLogger("Nombre del logger");
+
 	/**
 	 * Realiza una suma con los dos valores recibidos
 	 * 
@@ -52,7 +57,7 @@ public class Operaciones {
 	 */
 	public int dividir(int valor1, int valor2) {
 		int numero;
-		numero = valor1 / valor2;
+		numero = valor1 / valor2;			
 		return numero;
 	}
 

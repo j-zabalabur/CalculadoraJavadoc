@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-29T08:16:16.805096900Z</date>
+  <millis>1706516176805</millis>
+  <nanos>96900</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Suma realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:16:23.780102500Z</date>
+  <millis>1706516183780</millis>
+  <nanos>102500</nanos>
+  <sequence>1</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Division realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:16:28.748335200Z</date>
+  <millis>1706516188748</millis>
+  <nanos>335200</nanos>
+  <sequence>2</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-29T08:17:42.093081700Z</date>
+  <millis>1706516262093</millis>
+  <nanos>81700</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-29T08:18:57.868079200Z</date>
+  <millis>1706516337868</millis>
+  <nanos>79200</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Resta realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:19:06.948077400Z</date>
+  <millis>1706516346948</millis>
+  <nanos>77400</nanos>
+  <sequence>1</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Multiplicación realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:19:15.348076900Z</date>
+  <millis>1706516355348</millis>
+  <nanos>76900</nanos>
+  <sequence>2</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Resto realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:19:21.452076Z</date>
+  <millis>1706516361452</millis>
+  <nanos>76000</nanos>
+  <sequence>3</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-29T08:19:53.677060700Z</date>
+  <millis>1706516393677</millis>
+  <nanos>60700</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero.</message>
+</record>
+</log>
