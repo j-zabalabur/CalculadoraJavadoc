@@ -20,7 +20,7 @@ public class Calculadora {
 	private static final Logger LOGGER = Logger.getLogger("Nombre del logger");
 
 	public static void main(String[] args) throws IOException {
-		LOGGER.setLevel(Level.WARNING);
+		LOGGER.setLevel(Level.ALL);
 		LOGGER.setUseParentHandlers(false);
 
 		int resultado = 0;
