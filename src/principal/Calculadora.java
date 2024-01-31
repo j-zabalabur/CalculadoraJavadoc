@@ -30,9 +30,11 @@ public class Calculadora {
 		Handler consoleHandler = new ConsoleHandler();
 		Handler fileHandler = null;
 		LOGGER.addHandler(consoleHandler);
+		consoleHandler.setLevel(Level.WARNING);
 		try {
 			fileHandler = new FileHandler("./logs/operaciones.log", true);
 			LOGGER.addHandler(fileHandler);
+			fileHandler.setLevel(Level.ALL);
 		} catch (SecurityException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

@@ -122,3 +122,47 @@
   <message>Intento de dividir por cero.</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-31T12:23:52.742819300Z</date>
+  <millis>1706703832742</millis>
+  <nanos>819300</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Suma realizada correctamente.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-31T12:24:02.608944900Z</date>
+  <millis>1706703842608</millis>
+  <nanos>944900</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Suma realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-31T12:24:07.048943800Z</date>
+  <millis>1706703847048</millis>
+  <nanos>943800</nanos>
+  <sequence>1</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero.</message>
+</record>
+</log>
