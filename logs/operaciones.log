@@ -166,3 +166,13 @@
   <message>Intento de dividir por cero.</message>
 </record>
 </log>
+<HTML>
+ <BODY> 
+<P>Multiplicación realizada correctamente.</P>
+ </BODY>
+</HTML>
+<HTML>
+ <BODY> 
+<P>2024-02-01T11:42:43.224238100Z FINE Multiplicación realizada correctamente.</P>
+ </BODY>
+</HTML>
